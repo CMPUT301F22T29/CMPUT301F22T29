@@ -3,7 +3,8 @@ package com.example.cmput301f22t29;
 abstract class Shape {
     private int x;
     private int y;
-    String color = "blue";
+    String color = "$black";
+
 
     public Shape(int x, int y) {
         this.x = x;
